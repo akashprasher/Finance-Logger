@@ -1,10 +1,6 @@
-const chars = 'repository';
-console.log(chars);
+// Pre-defining the income input type
+const circ = (diameter: number) => {
+    return diameter * Math.PI;
+}
 
-const inputs = document.querySelectorAll('input');
-
-inputs.forEach(input => {
-    console.log(input);
-})
-
-// 'tsc sandbox.ts -w' can be used to compile ts autimatically.
+console.log(circ(5))
